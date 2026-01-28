@@ -1,0 +1,2450 @@
+<html lang="EN" class="webkit chrome win js">
+	<head>
+		<title>Goods Classification Service</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="initial-scale=1, width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+		<!-- fonts -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css" />
+		<link rel="stylesheet" href="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/css/ace-admin/ace-fonts.min.css" />
+		<!-- basic styles -->
+		<link rel="stylesheet" href="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/css/bootstrap/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/css/footable.core.min.css" />
+		<link rel="stylesheet" href="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/css/datepicker.min.css" />
+		<!-- ace styles -->
+		<link rel="stylesheet" href="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/css/ace-admin/ace.min.css" />
+		<link rel="stylesheet" href="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/css/ace-admin/ace-rtl.min.css" />
+		<link rel="stylesheet" href="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/css/ace-admin/ace-skins.min.css" />
+		<link rel="shortcut icon" href="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/image/favicon.ico" />
+		<!--[if lte IE 8]>
+			<link rel="stylesheet" href="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/css/ace-admin/ace-ie.min.css" />
+		<![endif]-->
+		<!-- customized styles -->
+		<!-- ace settings handler -->
+		<script src="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/js/ace-extra.min.js"></script>
+		<!--[if lt IE 9]>
+			<script src="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/js/html5shiv.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/css/print.min.css" media="print" />
+		<script src="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/js/jquery-1.10.2.min.js"></script>
+		<link rel="stylesheet" href="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/css/layout.min.css" />
+		<link rel="stylesheet" href="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/css/layout-dt.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@24.5.0/build/css/intlTelInput.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/summernote@0.9.1/dist/summernote-lite.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-switch@3.3.2/dist/css/bootstrap3/bootstrap-switch.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.min.css" />
+		<link rel="stylesheet" href="stylo.css" />
+	</head>
+
+	<body class="ltr">
+		<div class="main-container container">
+			<div class="main-container-inner">
+				<div class="x-main-content">
+					<div class="row mx-0">
+						<div class="col-lg-12 px-0">
+							<img src="registered-top-banner.png" alt="" width="100%" />
+						</div>
+					</div>
+					<!-- <div class="row mx-0">
+                    <div class="col-lg-12 px-0">
+                        <ul class="my-tabs">
+                            <li><a href="detail_decision_broker.html">Introduction</a></li>
+                            <li class="active"><a href="form_decision_broker.html">New</a></li>
+                            <li><a href="enquiry_decision_broker.html">Enquiry</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+					<div class="page-content">
+						<div class="page-header">
+							<h1>Request Goods Classification</h1>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 form">
+								<form class="form-horizontal form-bordered form-row-stripped has-tooltips">
+									<div class="wizard">
+										<div class="wizard-inner mt-5">
+											<div class="connecting-line"></div>
+											<ul class="nav nav-tabs" role="tablist">
+												<li role="presentation" class="active">
+													<a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" aria-expanded="true">
+														<span class="round-tab">1 </span>
+														<i>Applicant Information</i>
+													</a>
+												</li>
+												<li role="presentation" class="disabled">
+													<a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" aria-expanded="false">
+														<span class="round-tab">2</span>
+														<i>Item Details</i>
+													</a>
+												</li>
+												<li role="presentation" class="disabled">
+													<a href="#step3" data-toggle="tab" aria-controls="step3" role="tab">
+														<span class="round-tab">3</span>
+														<i>Payment</i>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="tab-content">
+											<div class="tab-pane active" role="tabpanel" id="step1">
+												<div class="widget-box">
+													<div class="widget-header" data-action="collapse">
+														<h4>Service Description</h4>
+														<span class="widget-toolbar">
+															<a href="#">
+																<i class="icon-chevron-down"></i>
+															</a>
+														</span>
+													</div>
+													<div class="widget-body">
+														<div class="widget-main">
+															<div class="row">
+																<div class="col-xs-12">
+																	<div class="form-group col-md-6">
+																		<label for="serviceDesc" class="col-md-3"> Service Description </label>
+																		<div class="col-md-9">
+																			<textarea id="serviceDesc" name="serviceDesc" class="form-control" disabled="disabled" readonly="readonly">
+This service provides the ability to request a classification of a commodity according to the unified customs tariff of the GCC countries.</textarea
+																			>
+																			<span class="addon-tooltip">
+																				<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="An indicator of the current stage or progress of a customs request in the processing workflow.">
+																					<i class="fa fa-info-circle"></i>
+																				</span>
+																			</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="widget-box">
+													<div class="widget-header" data-action="collapse">
+														<h4>Applicant Information</h4>
+														<span class="widget-toolbar">
+															<a href="#">
+																<i class="icon-chevron-down"></i>
+															</a>
+														</span>
+													</div>
+													<div class="widget-body">
+														<div class="widget-main">
+															<div class="row">
+																<div class="col-xs-12">
+																	<div class="form-group col-md-6">
+																		<label for="brokerNameCode" class="col-md-3"> Broker Business Code and Name </label>
+																		<div class="col-md-9">
+																			<input
+																				id="brokerNameCode"
+																				name="brokerNameCode"
+																				placeholder="AE-8122451  M&M's special holding private company L.L.C"
+																				class="form-control"
+																				type="text"
+																				value=""
+																				maxlength="15"
+																				autocomplete="off"
+																				readonly />
+																			<span class="addon-tooltip">
+																				<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The unique identifier and name of the broker or intermediary handling the transaction.">
+																					<i class="fa fa-info-circle"></i>
+																				</span>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="form-group col-md-6">
+																		<label for="ownerCode" class="col-md-3"> Owner Business Code and Name </label>
+																		<div class="col-md-9">
+																			<select name="ownerCode" id="ownerCode" class="form-control">
+																				<option value="">AE-7642598 - Name</option>
+																				<option value="">AE-7642599 - Name</option>
+																				<option value="">AE-7642600 - Name</option>
+																				<option value="">AE-7642601 - Name</option>
+																			</select>
+																			<span class="addon-tooltip">
+																				<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The unique identifier and name of the broker or intermediary handling the transaction.">
+																					<i class="fa fa-info-circle"></i>
+																				</span>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="form-group col-md-6">
+																		<label for="userRegistrationName" class="col-md-3"> Applicant Name <b class="text-error">*</b> </label>
+																		<div class="col-md-9">
+																			<input id="userRegistrationName" name="userRegistrationName" class="form-control" readonly type="text" value="" maxlength="100" autocomplete="off" />
+																		</div>
+																	</div>
+																	<div class="form-group col-md-6">
+																		<label for="usrEmail" class="col-md-3">
+																			Email
+																			<b class="text-error">*</b>
+																		</label>
+																		<div class="col-md-9">
+																			<div class="input-group">
+																				<input id="usrEmail" name="usrEmail" type="email" class="form-control email_field" onchange="checkVerification()" value="" autocomplete="off" readonly />
+																			</div>
+																			<span class="addon-tooltip">
+																				<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="Contact person email ID">
+																					<i class="fa fa-info-circle"></i>
+																				</span>
+																			</span>
+																			<span class="help-block" id="help-block-email" style="display: none">
+																				<i class="icon-remove text-error" id="v-icon-email"></i>
+																				<span id="Verified-date-email">Not Verified</span>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="form-group col-md-6">
+																		<label for="phoneNo" class="col-md-3"> Phone </label>
+																		<div class="col-md-9">
+																			<input id="phoneNo" name="phoneNo" class="form-control" type="text" value="" readonly autocomplete="off" />
+																			<span class="addon-tooltip">
+																				<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title='numbers and hyphen "-" only, for e.g. 00971-4-4177777'>
+																					<i class="fa fa-info-circle"></i>
+																				</span>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="form-group col-md-6">
+																		<label for="mobileNo" class="col-md-3">
+																			Mobile
+																			<b id="mob_star" class="text-error">*</b>
+																		</label>
+																		<div class="col-md-9">
+																			<input id="mobileNo" name="mobileNo" class="form-control" autocomplete="off" value="" readonly />
+																			<span class="addon-tooltip">
+																				<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="Contact person mobile number"><i class="fa fa-info-circle"></i></span>
+																			</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="form-actions">
+													<button class="btn btn-sm btn-primary next-step" type="button">
+														<span>Next</span>
+													</button>
+												</div>
+											</div>
+											<div class="tab-pane" role="tabpanel" id="step2">
+												<div class="row mt-5">
+													<div class="col-md-12">
+														<div class="d-flex align-items-center justify-content-between">
+															<div class="d-flex align-items-center position-relative" style="padding-right: 40px">
+																<label class="control-label d-flex align-items-center">Are you seeking Goods Classification for more than one item?</label>
+																<div class="d-flex align-items-center" style="margin-left: 15px">
+																	<input type="checkbox" class="make-switch" data-on-text="Yes" data-off-text="No" id="test" data-size="mini" />
+																</div>
+																<span class="addon-tooltip">
+																	<span
+																		data-toggle="tooltip"
+																		data-container="body"
+																		data-placement="left"
+																		data-original-title="Indicates whether the request for goods classification involves a single item or multiple items. It is used to determine the scope of classification and tailor the process accordingly.">
+																		<i class="fa fa-info-circle"></i>
+																	</span>
+																</span>
+															</div>
+															<div class="multiple" style="display: none">
+																<button type="button" class="btn btn-sm btn-default float-right" onclick="AddNewItem();">Add New Item</button>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div id="singleForm">
+													<div class="widget-box">
+														<div class="widget-header" data-action="collapse">
+															<h4>Request Information</h4>
+															<span class="widget-toolbar">
+																<a href="#">
+																	<i class="icon-chevron-down"></i>
+																</a>
+															</span>
+														</div>
+														<div class="widget-body">
+															<div class="widget-main">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="form-group col-md-6">
+																			<label for="subject" class="col-md-3">
+																				Subject
+																				<b id="sub_star" class="text-error">*</b>
+																			</label>
+																			<div class="col-md-9">
+																				<textarea name="" id="" class="form-control" readonly>Request for Goods Classification</textarea>
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The title or main topic for the request or communication.">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3"
+																				>Product Description
+																				<b id="desc_star" class="text-error">*</b>
+																			</label>
+																			<div class="col-md-9">
+																				<textarea name="" id="" class="form-control"></textarea>
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="Detailed explanation of the request or case.">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																			<!-- <div name="summernote" class="summernote"></div> -->
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3"
+																				>Stage of Declaration
+																				<span class="text-danger">*</span>
+																			</label>
+																			<div class="col-md-9">
+																				<select class="form-control DCStage">
+																					<option value="pre-entry">Pre-entry</option>
+																					<option value="post-clearance">Post-clearance</option>
+																					<option value="in-process">In-Process</option>
+																				</select>
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title='The current status or stage of the declaration process, such as "pending" or "completed."'>
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6 DCNumbr" style="display: none">
+																			<label class="col-md-3">Declaration Number <b class="text-error">*</b></label>
+																			<div class="col-md-9">
+																				<input type="text" class="form-control" />
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3">
+																				Client Envisaged HS Code
+																				<span class="text-danger">*</span>
+																			</label>
+																			<div class="col-md-9">
+																				<select class="selectpicker form-control" data-live-search="true">
+																					<option value="0101.21">0101.21 - Horses, live, for breeding</option>
+																					<option value="0201.30">0201.30 - Meat of bovine animals, boneless</option>
+																					<option value="0302.12">0302.12 - Fresh or chilled salmon</option>
+																					<option value="0402.10">0402.10 - Milk and cream, concentrated</option>
+																					<option value="0602.90">0602.90 - Other live plants</option>
+																					<option value="0703.10">0703.10 - Onions and shallots</option>
+																					<option value="0803.90">0803.90 - Other bananas, fresh</option>
+																					<option value="0901.21">0901.21 - Coffee, roasted, not decaffeinated</option>
+																					<option value="1001.90">1001.90 - Wheat and meslin</option>
+																					<option value="1101.00">1101.00 - Wheat or meslin flour</option>
+																					<option value="1201.90">1201.90 - Other soybeans</option>
+																					<option value="1507.10">1507.10 - Crude soya-bean oil</option>
+																					<option value="1701.13">1701.13 - Cane sugar, raw</option>
+																					<option value="1806.90">1806.90 - Other chocolate and cocoa products</option>
+																					<option value="1905.90">1905.90 - Other baked goods</option>
+																					<option value="2202.10">2202.10 - Waters, including mineral</option>
+																					<option value="2710.19">2710.19 - Other petroleum oils</option>
+																					<option value="3004.90">3004.90 - Other medicaments</option>
+																					<option value="3923.21">3923.21 - Sacks and bags, of polymers</option>
+																					<option value="8528.72">8528.72 - Projectors, capable of directly connecting to a monitor</option>
+																				</select>
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The Harmonized System code used for classifying goods in international trade.">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3"> Any Information/data confirming Envisaged Classification </label>
+																			<div class="col-md-9">
+																				<textarea class="form-control" id=""></textarea>
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="Supporting data or evidence provided by the client to confirm the suggested classification.">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3"> Commercial Designation and Additional Information </label>
+																			<div class="col-md-9">
+																				<textarea class="form-control" id=""></textarea>
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="Trade name and any supplementary details about the goods.">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3"> Product Trade Name </label>
+																			<div class="col-md-9">
+																				<input type="text" class="form-control" />
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The specific trade or brand name under which the product is marketed or known commercially.">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3"> Use of the Product </label>
+																			<div class="col-md-9">
+																				<input type="text" class="form-control" />
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The intended purpose or application of the product.">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3"> Product Material </label>
+																			<div class="col-md-9">
+																				<input type="text" class="form-control" />
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The primary material or substance that makes up the product.">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3"> Country of Origin </label>
+																			<div class="col-md-9">
+																				<select class="selectpicker form-control" data-live-search="true" data-size="8">
+																					<option value="0" selected disabled hidden>Select Country</option>
+																					<option value="AF">Afghanistan</option>
+																					<option value="AL">Albania</option>
+																					<option value="DZ">Algeria</option>
+																					<option value="AS">American Samoa</option>
+																					<option value="AD">Andorra</option>
+																					<option value="AO">Angola</option>
+																					<option value="AI">Anguilla</option>
+																					<option value="AR">Argentina</option>
+																					<option value="AM">Armenia</option>
+																					<option value="AW">Aruba</option>
+																					<option value="AU">Australia</option>
+																					<option value="AT">Austria</option>
+																					<option value="AZ">Azerbaijan</option>
+																					<option value="BS">Bahamas</option>
+																					<option value="BH">Bahrain</option>
+																					<option value="BD">Bangladesh</option>
+																					<option value="BB">Barbados</option>
+																					<option value="BY">Belarus</option>
+																					<option value="BE">Belgium</option>
+																					<option value="BZ">Belize</option>
+																					<option value="BJ">Benin</option>
+																					<option value="BM">Bermuda</option>
+																					<option value="BT">Bhutan</option>
+																					<option value="BO">Bolivia</option>
+																					<option value="BA">Bosnia and Herzegowina</option>
+																					<option value="BW">Botswana</option>
+																					<option value="BV">Bouvet Island</option>
+																					<option value="BR">Brazil</option>
+																					<option value="IO">British Indian Ocean Territory</option>
+																					<option value="BN">Brunei Darussalam</option>
+																					<option value="BG">Bulgaria</option>
+																					<option value="BF">Burkina Faso</option>
+																					<option value="BI">Burundi</option>
+																					<option value="KH">Cambodia</option>
+																					<option value="CM">Cameroon</option>
+																					<option value="CA">Canada</option>
+																					<option value="CV">Cape Verde</option>
+																					<option value="KY">Cayman Islands</option>
+																					<option value="CF">Central African Republic</option>
+																					<option value="TD">Chad</option>
+																					<option value="CL">Chile</option>
+																					<option value="CN">China</option>
+																					<option value="CX">Christmas Island</option>
+																					<option value="CC">Cocos (Keeling) Islands</option>
+																					<option value="CO">Colombia</option>
+																					<option value="KM">Comoros</option>
+																					<option value="CG">Congo</option>
+																					<option value="CD">Congo, the Democratic Republic of the</option>
+																					<option value="CK">Cook Islands</option>
+																					<option value="CR">Costa Rica</option>
+																					<option value="CI">Cote d'Ivoire</option>
+																					<option value="HR">Croatia (Hrvatska)</option>
+																					<option value="CU">Cuba</option>
+																					<option value="CY">Cyprus</option>
+																					<option value="CZ">Czech Republic</option>
+																					<option value="DK">Denmark</option>
+																					<option value="DJ">Djibouti</option>
+																					<option value="DM">Dominica</option>
+																					<option value="DO">Dominican Republic</option>
+																					<option value="EC">Ecuador</option>
+																					<option value="EG">Egypt</option>
+																					<option value="SV">El Salvador</option>
+																					<option value="GQ">Equatorial Guinea</option>
+																					<option value="ER">Eritrea</option>
+																					<option value="EE">Estonia</option>
+																					<option value="ET">Ethiopia</option>
+																					<option value="FK">Falkland Islands (Malvinas)</option>
+																					<option value="FO">Faroe Islands</option>
+																					<option value="FJ">Fiji</option>
+																					<option value="FI">Finland</option>
+																					<option value="FR">France</option>
+																					<option value="GF">French Guiana</option>
+																					<option value="PF">French Polynesia</option>
+																					<option value="TF">French Southern Territories</option>
+																					<option value="GA">Gabon</option>
+																					<option value="GM">Gambia</option>
+																					<option value="GE">Georgia</option>
+																					<option value="DE">Germany</option>
+																					<option value="GH">Ghana</option>
+																					<option value="GI">Gibraltar</option>
+																					<option value="GR">Greece</option>
+																					<option value="GL">Greenland</option>
+																					<option value="GD">Grenada</option>
+																					<option value="GP">Guadeloupe</option>
+																					<option value="GU">Guam</option>
+																					<option value="GT">Guatemala</option>
+																					<option value="GN">Guinea</option>
+																					<option value="GW">Guinea-Bissau</option>
+																					<option value="GY">Guyana</option>
+																					<option value="HT">Haiti</option>
+																					<option value="HM">Heard and Mc Donald Islands</option>
+																					<option value="VA">Holy See (Vatican City State)</option>
+																					<option value="HN">Honduras</option>
+																					<option value="HK">Hong Kong</option>
+																					<option value="HU">Hungary</option>
+																					<option value="IS">Iceland</option>
+																					<option value="IN">India</option>
+																					<option value="ID">Indonesia</option>
+																					<option value="IR">Iran (Islamic Republic of)</option>
+																					<option value="IQ">Iraq</option>
+																					<option value="IE">Ireland</option>
+																					<option value="IL">Israel</option>
+																					<option value="IT">Italy</option>
+																					<option value="JM">Jamaica</option>
+																					<option value="JP">Japan</option>
+																					<option value="JO">Jordan</option>
+																					<option value="KZ">Kazakhstan</option>
+																					<option value="KE">Kenya</option>
+																					<option value="KI">Kiribati</option>
+																					<option value="KP">Korea, Democratic People's Republic of</option>
+																					<option value="KR">Korea, Republic of</option>
+																					<option value="KW">Kuwait</option>
+																					<option value="KG">Kyrgyzstan</option>
+																					<option value="LA">Lao People's Democratic Republic</option>
+																					<option value="LV">Latvia</option>
+																					<option value="LB">Lebanon</option>
+																					<option value="LS">Lesotho</option>
+																					<option value="LR">Liberia</option>
+																					<option value="LY">Libyan Arab Jamahiriya</option>
+																					<option value="LI">Liechtenstein</option>
+																					<option value="LT">Lithuania</option>
+																					<option value="LU">Luxembourg</option>
+																					<option value="MO">Macau</option>
+																					<option value="MK">Macedonia, The Former Yugoslav Republic of</option>
+																					<option value="MG">Madagascar</option>
+																					<option value="MW">Malawi</option>
+																					<option value="MY">Malaysia</option>
+																					<option value="MV">Maldives</option>
+																					<option value="ML">Mali</option>
+																					<option value="MT">Malta</option>
+																					<option value="MH">Marshall Islands</option>
+																					<option value="MQ">Martinique</option>
+																					<option value="MR">Mauritania</option>
+																					<option value="MU">Mauritius</option>
+																					<option value="YT">Mayotte</option>
+																					<option value="MX">Mexico</option>
+																					<option value="FM">Micronesia, Federated States of</option>
+																					<option value="MD">Moldova, Republic of</option>
+																					<option value="MC">Monaco</option>
+																					<option value="MN">Mongolia</option>
+																					<option value="MS">Montserrat</option>
+																					<option value="MA">Morocco</option>
+																					<option value="MZ">Mozambique</option>
+																					<option value="MM">Myanmar</option>
+																					<option value="NA">Namibia</option>
+																					<option value="NR">Nauru</option>
+																					<option value="NP">Nepal</option>
+																					<option value="NL">Netherlands</option>
+																					<option value="AN">Netherlands Antilles</option>
+																					<option value="NC">New Caledonia</option>
+																					<option value="NZ">New Zealand</option>
+																					<option value="NI">Nicaragua</option>
+																					<option value="NE">Niger</option>
+																					<option value="NG">Nigeria</option>
+																					<option value="NU">Niue</option>
+																					<option value="NF">Norfolk Island</option>
+																					<option value="MP">Northern Mariana Islands</option>
+																					<option value="NO">Norway</option>
+																					<option value="OM">Oman</option>
+																					<option value="PK">Pakistan</option>
+																					<option value="PW">Palau</option>
+																					<option value="PA">Panama</option>
+																					<option value="PG">Papua New Guinea</option>
+																					<option value="PY">Paraguay</option>
+																					<option value="PE">Peru</option>
+																					<option value="PH">Philippines</option>
+																					<option value="PN">Pitcairn</option>
+																					<option value="PL">Poland</option>
+																					<option value="PT">Portugal</option>
+																					<option value="PR">Puerto Rico</option>
+																					<option value="QA">Qatar</option>
+																					<option value="RE">Reunion</option>
+																					<option value="RO">Romania</option>
+																					<option value="RU">Russian Federation</option>
+																					<option value="RW">Rwanda</option>
+																					<option value="KN">Saint Kitts and Nevis</option>
+																					<option value="LC">Saint LUCIA</option>
+																					<option value="VC">Saint Vincent and the Grenadines</option>
+																					<option value="WS">Samoa</option>
+																					<option value="SM">San Marino</option>
+																					<option value="ST">Sao Tome and Principe</option>
+																					<option value="SA">Saudi Arabia</option>
+																					<option value="SN">Senegal</option>
+																					<option value="SC">Seychelles</option>
+																					<option value="SL">Sierra Leone</option>
+																					<option value="SG">Singapore</option>
+																					<option value="SK">Slovakia (Slovak Republic)</option>
+																					<option value="SI">Slovenia</option>
+																					<option value="SB">Solomon Islands</option>
+																					<option value="SO">Somalia</option>
+																					<option value="ZA">South Africa</option>
+																					<option value="GS">South Georgia and the South Sandwich Islands</option>
+																					<option value="ES">Spain</option>
+																					<option value="LK">Sri Lanka</option>
+																					<option value="SH">St. Helena</option>
+																					<option value="PM">St. Pierre and Miquelon</option>
+																					<option value="SD">Sudan</option>
+																					<option value="SR">Suriname</option>
+																					<option value="SJ">Svalbard and Jan Mayen Islands</option>
+																					<option value="SZ">Swaziland</option>
+																					<option value="SE">Sweden</option>
+																					<option value="CH">Switzerland</option>
+																					<option value="SY">Syrian Arab Republic</option>
+																					<option value="TW">Taiwan, Province of China</option>
+																					<option value="TJ">Tajikistan</option>
+																					<option value="TZ">Tanzania, United Republic of</option>
+																					<option value="TH">Thailand</option>
+																					<option value="TG">Togo</option>
+																					<option value="TK">Tokelau</option>
+																					<option value="TO">Tonga</option>
+																					<option value="TT">Trinidad and Tobago</option>
+																					<option value="TN">Tunisia</option>
+																					<option value="TR">Turkey</option>
+																					<option value="TM">Turkmenistan</option>
+																					<option value="TC">Turks and Caicos Islands</option>
+																					<option value="TV">Tuvalu</option>
+																					<option value="UG">Uganda</option>
+																					<option value="UA">Ukraine</option>
+																					<option value="AE">United Arab Emirates</option>
+																					<option value="GB">United Kingdom</option>
+																					<option value="US">United States</option>
+																					<option value="UM">United States Minor Outlying Islands</option>
+																					<option value="UY">Uruguay</option>
+																					<option value="UZ">Uzbekistan</option>
+																					<option value="VU">Vanuatu</option>
+																					<option value="VE">Venezuela</option>
+																					<option value="VN">Viet Nam</option>
+																					<option value="VG">Virgin Islands (British)</option>
+																					<option value="VI">Virgin Islands (U.S.)</option>
+																					<option value="WF">Wallis and Futuna Islands</option>
+																					<option value="EH">Western Sahara</option>
+																					<option value="YE">Yemen</option>
+																					<option value="ZM">Zambia</option>
+																					<option value="ZW">Zimbabwe</option>
+																				</select>
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The country where the product was manufactured or produced.">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3"> CAS Number </label>
+																			<div class="col-md-9">
+																				<input type="text" class="form-control" />
+																				<span class="addon-tooltip">
+																					<span
+																						data-toggle="tooltip"
+																						data-container="body"
+																						data-placement="left"
+																						data-original-title="The Chemical Abstracts Service number, a unique identifier for chemicals, if applicable to the product.">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3"> Quantity </label>
+																			<div class="col-md-9">
+																				<input type="text" class="form-control" />
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The number of units of the product being declared.">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3"> Weight </label>
+																			<div class="col-md-9">
+																				<input type="text" class="form-control" />
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The weight of the product, usually measured in kilograms or tons.">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3"> Measurement </label>
+																			<div class="col-md-9">
+																				<select class="form-control">
+																					<option value="">Kg</option>
+																					<option value="">lbs</option>
+																					<option value="">MT</option>
+																				</select>
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The dimensions or size of the product, if applicable.">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3"> Volume in Units (CBM) </label>
+																			<div class="col-md-9">
+																				<input type="text" class="form-control" />
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The volume of the product in cubic meters, often used for bulk or large items.">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="form-group col-md-6">
+																			<label class="col-md-3"> Value (AED) </label>
+																			<div class="col-md-9">
+																				<input type="text" class="form-control" />
+																				<span class="addon-tooltip">
+																					<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The monetary worth of the goods or service in UAE Dirhams (AED).">
+																						<i class="fa fa-info-circle"></i>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="widget-box">
+														<div class="widget-header" data-action="collapse">
+															<h4>Required Documents</h4>
+															<span class="widget-toolbar"
+																><a href="#"><i class="icon-chevron-down"></i></a
+															></span>
+														</div>
+														<div class="widget-body">
+															<div class="widget-main">
+																<div class="row">
+																	<div class="col-sm-12">
+																		<div class="table-responsive">
+																			<button type="button" class="addRowBtn btn btn-sm btn-secondary float-right mb-4">Add New Row</button>
+																			<table class="table table-bordered w-100 myTable fLeft">
+																				<thead>
+																					<tr>
+																						<th>Document Name</th>
+																						<th width="200px">File</th>
+																						<th width="440px">Actions</th>
+																					</tr>
+																				</thead>
+																				<tbody>
+																					<tr>
+																						<td>
+																							First Entry Bill
+																							<span
+																								class="ml-2"
+																								data-toggle="tooltip"
+																								data-placement="right"
+																								data-original-title="The initial customs document or bill generated for the shipment's entry, indicating details of the consignment and customs charges."
+																								><i class="fa fa-info-circle"></i
+																							></span>
+																						</td>
+																						<td><a href="../assets/global/img/bill.png" target="_blank">bill.png</a></td>
+																						<td>
+																							<a href="#" class="btn btn-icon-only"><i class="fa fa-trash"></i></a>
+																							<a href="../assets/global/img/bill.png" class="btn btn-icon-only" target="_blank"><i class="fa fa-eye"></i></a>
+																						</td>
+																					</tr>
+																					<tr>
+																						<td>
+																							Invoice (If Available)
+																							<span
+																								class="ml-2"
+																								data-toggle="tooltip"
+																								data-placement="right"
+																								data-original-title="A commercial document listing the goods or services provided, along with prices, quantities, and transaction details, submitted with the customs request if applicable."
+																								><i class="fa fa-info-circle"></i
+																							></span>
+																						</td>
+																						<td></td>
+																						<td>
+																							<div class="d-flex">
+																								<div class="d-flex" style="flex: 1">
+																									<input type="file" class="form-control" />
+																								</div>
+																								<button class="btn btn-sm btn-light" type="button">Upload File</button>
+																							</div>
+																						</td>
+																					</tr>
+																					<tr>
+																						<td>
+																							Bill of Loading (If Available)
+																							<span
+																								class="ml-2"
+																								data-toggle="tooltip"
+																								data-placement="right"
+																								data-original-title="A document issued by a carrier to acknowledge receipt of cargo for shipment, used to verify shipping details and ownership."
+																								><i class="fa fa-info-circle"></i
+																							></span>
+																						</td>
+																						<td></td>
+																						<td>
+																							<div class="d-flex">
+																								<div class="d-flex" style="flex: 1">
+																									<input type="file" class="form-control" />
+																								</div>
+																								<button class="btn btn-sm btn-light" type="button">Upload File</button>
+																							</div>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="multiple" style="display: none">
+													<input type="hidden" id="PCounter" value="1" />
+													<div class="panel-group accordion hasDelBtn" id="accordion1">
+														<div class="panel panel-default panel1">
+															<div class="panel-heading">
+																<h4 class="panel-title">
+																	<a class="accordion-toggle d-flex accordion-toggle-styled" data-toggle="collapse" data-parent="#accordion1" href="#collapse_1" aria-expanded="true"> Item 1 </a>
+																	<a href="#" class="btn btn-icon-only last-child" onclick="DeleteItem('.panel1');"><i class="fa fa-trash"></i></a>
+																</h4>
+															</div>
+															<div id="collapse_1" class="panel-collapse collapse in" aria-expanded="true">
+																<div class="panel-body">
+																	<div class="widget-box">
+																		<div class="widget-header" data-action="collapse">
+																			<h4>Request Information</h4>
+																			<span class="widget-toolbar">
+																				<a href="#">
+																					<i class="icon-chevron-down"></i>
+																				</a>
+																			</span>
+																		</div>
+																		<div class="widget-body">
+																			<div class="widget-main">
+																				<div class="row">
+																					<div class="col-xs-12">
+																						<div class="form-group col-md-6">
+																							<label for="subject" class="col-md-3">
+																								Subject
+																								<b id="sub_star" class="text-error">*</b>
+																							</label>
+																							<div class="col-md-9">
+																								<textarea name="" id="" class="form-control" readonly>Request for Goods Classification</textarea>
+																								<span class="addon-tooltip">
+																									<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The title or main topic for the request or communication.">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3"
+																								>Product Description
+																								<b id="desc_star" class="text-error">*</b>
+																							</label>
+																							<div class="col-md-9">
+																								<textarea name="" id="" class="form-control"></textarea>
+																								<span class="addon-tooltip">
+																									<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="Detailed explanation of the request or case.">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																							<!-- <div name="summernote" class="summernote"></div> -->
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3"
+																								>Stage of Declaration
+																								<span class="text-danger">*</span>
+																							</label>
+																							<div class="col-md-9">
+																								<select class="form-control DCStage">
+																									<option value="pre-entry">Pre-entry</option>
+																									<option value="post-clearance">Post-clearance</option>
+																									<option value="in-process">In-Process</option>
+																								</select>
+																								<span class="addon-tooltip">
+																									<span
+																										data-toggle="tooltip"
+																										data-container="body"
+																										data-placement="left"
+																										data-original-title='The current status or stage of the declaration process, such as "pending" or "completed."'>
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6 DCNumbr" style="display: none">
+																							<label class="col-md-3">Declaration Number <b class="text-error">*</b></label>
+																							<div class="col-md-9">
+																								<input type="text" class="form-control" />
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3">
+																								Client Envisaged HS Code
+																								<span class="text-danger">*</span>
+																							</label>
+																							<div class="col-md-9">
+																								<select class="selectpicker form-control" data-live-search="true">
+																									<option value="0101.21">0101.21 - Horses, live, for breeding</option>
+																									<option value="0201.30">0201.30 - Meat of bovine animals, boneless</option>
+																									<option value="0302.12">0302.12 - Fresh or chilled salmon</option>
+																									<option value="0402.10">0402.10 - Milk and cream, concentrated</option>
+																									<option value="0602.90">0602.90 - Other live plants</option>
+																									<option value="0703.10">0703.10 - Onions and shallots</option>
+																									<option value="0803.90">0803.90 - Other bananas, fresh</option>
+																									<option value="0901.21">0901.21 - Coffee, roasted, not decaffeinated</option>
+																									<option value="1001.90">1001.90 - Wheat and meslin</option>
+																									<option value="1101.00">1101.00 - Wheat or meslin flour</option>
+																									<option value="1201.90">1201.90 - Other soybeans</option>
+																									<option value="1507.10">1507.10 - Crude soya-bean oil</option>
+																									<option value="1701.13">1701.13 - Cane sugar, raw</option>
+																									<option value="1806.90">1806.90 - Other chocolate and cocoa products</option>
+																									<option value="1905.90">1905.90 - Other baked goods</option>
+																									<option value="2202.10">2202.10 - Waters, including mineral</option>
+																									<option value="2710.19">2710.19 - Other petroleum oils</option>
+																									<option value="3004.90">3004.90 - Other medicaments</option>
+																									<option value="3923.21">3923.21 - Sacks and bags, of polymers</option>
+																									<option value="8528.72">8528.72 - Projectors, capable of directly connecting to a monitor</option>
+																								</select>
+																								<span class="addon-tooltip">
+																									<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The Harmonized System code used for classifying goods in international trade.">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3"> Any Information/data confirming Envisaged Classification </label>
+																							<div class="col-md-9">
+																								<input type="text" class="form-control" />
+																								<span class="addon-tooltip">
+																									<span
+																										data-toggle="tooltip"
+																										data-container="body"
+																										data-placement="left"
+																										data-original-title="Supporting data or evidence provided by the client to confirm the suggested classification.">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3"> Commercial Designation and Additional Information </label>
+																							<div class="col-md-9">
+																								<input type="text" class="form-control" />
+																								<span class="addon-tooltip">
+																									<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="Trade name and any supplementary details about the goods.">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3"> Product Trade Name </label>
+																							<div class="col-md-9">
+																								<input type="text" class="form-control" />
+																								<span class="addon-tooltip">
+																									<span
+																										data-toggle="tooltip"
+																										data-container="body"
+																										data-placement="left"
+																										data-original-title="The specific trade or brand name under which the product is marketed or known commercially.">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3"> Use of the Product </label>
+																							<div class="col-md-9">
+																								<input type="text" class="form-control" />
+																								<span class="addon-tooltip">
+																									<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The intended purpose or application of the product.">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3"> Product Material </label>
+																							<div class="col-md-9">
+																								<input type="text" class="form-control" />
+																								<span class="addon-tooltip">
+																									<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The primary material or substance that makes up the product.">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3"> Country of Origin </label>
+																							<div class="col-md-9">
+																								<select class="selectpicker form-control" data-live-search="true" data-size="8">
+																									<option value="0" selected disabled hidden>Select Country</option>
+																									<option value="AF">Afghanistan</option>
+																									<option value="AL">Albania</option>
+																									<option value="DZ">Algeria</option>
+																									<option value="AS">American Samoa</option>
+																									<option value="AD">Andorra</option>
+																									<option value="AO">Angola</option>
+																									<option value="AI">Anguilla</option>
+																									<option value="AR">Argentina</option>
+																									<option value="AM">Armenia</option>
+																									<option value="AW">Aruba</option>
+																									<option value="AU">Australia</option>
+																									<option value="AT">Austria</option>
+																									<option value="AZ">Azerbaijan</option>
+																									<option value="BS">Bahamas</option>
+																									<option value="BH">Bahrain</option>
+																									<option value="BD">Bangladesh</option>
+																									<option value="BB">Barbados</option>
+																									<option value="BY">Belarus</option>
+																									<option value="BE">Belgium</option>
+																									<option value="BZ">Belize</option>
+																									<option value="BJ">Benin</option>
+																									<option value="BM">Bermuda</option>
+																									<option value="BT">Bhutan</option>
+																									<option value="BO">Bolivia</option>
+																									<option value="BA">Bosnia and Herzegowina</option>
+																									<option value="BW">Botswana</option>
+																									<option value="BV">Bouvet Island</option>
+																									<option value="BR">Brazil</option>
+																									<option value="IO">British Indian Ocean Territory</option>
+																									<option value="BN">Brunei Darussalam</option>
+																									<option value="BG">Bulgaria</option>
+																									<option value="BF">Burkina Faso</option>
+																									<option value="BI">Burundi</option>
+																									<option value="KH">Cambodia</option>
+																									<option value="CM">Cameroon</option>
+																									<option value="CA">Canada</option>
+																									<option value="CV">Cape Verde</option>
+																									<option value="KY">Cayman Islands</option>
+																									<option value="CF">Central African Republic</option>
+																									<option value="TD">Chad</option>
+																									<option value="CL">Chile</option>
+																									<option value="CN">China</option>
+																									<option value="CX">Christmas Island</option>
+																									<option value="CC">Cocos (Keeling) Islands</option>
+																									<option value="CO">Colombia</option>
+																									<option value="KM">Comoros</option>
+																									<option value="CG">Congo</option>
+																									<option value="CD">Congo, the Democratic Republic of the</option>
+																									<option value="CK">Cook Islands</option>
+																									<option value="CR">Costa Rica</option>
+																									<option value="CI">Cote d'Ivoire</option>
+																									<option value="HR">Croatia (Hrvatska)</option>
+																									<option value="CU">Cuba</option>
+																									<option value="CY">Cyprus</option>
+																									<option value="CZ">Czech Republic</option>
+																									<option value="DK">Denmark</option>
+																									<option value="DJ">Djibouti</option>
+																									<option value="DM">Dominica</option>
+																									<option value="DO">Dominican Republic</option>
+																									<option value="EC">Ecuador</option>
+																									<option value="EG">Egypt</option>
+																									<option value="SV">El Salvador</option>
+																									<option value="GQ">Equatorial Guinea</option>
+																									<option value="ER">Eritrea</option>
+																									<option value="EE">Estonia</option>
+																									<option value="ET">Ethiopia</option>
+																									<option value="FK">Falkland Islands (Malvinas)</option>
+																									<option value="FO">Faroe Islands</option>
+																									<option value="FJ">Fiji</option>
+																									<option value="FI">Finland</option>
+																									<option value="FR">France</option>
+																									<option value="GF">French Guiana</option>
+																									<option value="PF">French Polynesia</option>
+																									<option value="TF">French Southern Territories</option>
+																									<option value="GA">Gabon</option>
+																									<option value="GM">Gambia</option>
+																									<option value="GE">Georgia</option>
+																									<option value="DE">Germany</option>
+																									<option value="GH">Ghana</option>
+																									<option value="GI">Gibraltar</option>
+																									<option value="GR">Greece</option>
+																									<option value="GL">Greenland</option>
+																									<option value="GD">Grenada</option>
+																									<option value="GP">Guadeloupe</option>
+																									<option value="GU">Guam</option>
+																									<option value="GT">Guatemala</option>
+																									<option value="GN">Guinea</option>
+																									<option value="GW">Guinea-Bissau</option>
+																									<option value="GY">Guyana</option>
+																									<option value="HT">Haiti</option>
+																									<option value="HM">Heard and Mc Donald Islands</option>
+																									<option value="VA">Holy See (Vatican City State)</option>
+																									<option value="HN">Honduras</option>
+																									<option value="HK">Hong Kong</option>
+																									<option value="HU">Hungary</option>
+																									<option value="IS">Iceland</option>
+																									<option value="IN">India</option>
+																									<option value="ID">Indonesia</option>
+																									<option value="IR">Iran (Islamic Republic of)</option>
+																									<option value="IQ">Iraq</option>
+																									<option value="IE">Ireland</option>
+																									<option value="IL">Israel</option>
+																									<option value="IT">Italy</option>
+																									<option value="JM">Jamaica</option>
+																									<option value="JP">Japan</option>
+																									<option value="JO">Jordan</option>
+																									<option value="KZ">Kazakhstan</option>
+																									<option value="KE">Kenya</option>
+																									<option value="KI">Kiribati</option>
+																									<option value="KP">Korea, Democratic People's Republic of</option>
+																									<option value="KR">Korea, Republic of</option>
+																									<option value="KW">Kuwait</option>
+																									<option value="KG">Kyrgyzstan</option>
+																									<option value="LA">Lao People's Democratic Republic</option>
+																									<option value="LV">Latvia</option>
+																									<option value="LB">Lebanon</option>
+																									<option value="LS">Lesotho</option>
+																									<option value="LR">Liberia</option>
+																									<option value="LY">Libyan Arab Jamahiriya</option>
+																									<option value="LI">Liechtenstein</option>
+																									<option value="LT">Lithuania</option>
+																									<option value="LU">Luxembourg</option>
+																									<option value="MO">Macau</option>
+																									<option value="MK">Macedonia, The Former Yugoslav Republic of</option>
+																									<option value="MG">Madagascar</option>
+																									<option value="MW">Malawi</option>
+																									<option value="MY">Malaysia</option>
+																									<option value="MV">Maldives</option>
+																									<option value="ML">Mali</option>
+																									<option value="MT">Malta</option>
+																									<option value="MH">Marshall Islands</option>
+																									<option value="MQ">Martinique</option>
+																									<option value="MR">Mauritania</option>
+																									<option value="MU">Mauritius</option>
+																									<option value="YT">Mayotte</option>
+																									<option value="MX">Mexico</option>
+																									<option value="FM">Micronesia, Federated States of</option>
+																									<option value="MD">Moldova, Republic of</option>
+																									<option value="MC">Monaco</option>
+																									<option value="MN">Mongolia</option>
+																									<option value="MS">Montserrat</option>
+																									<option value="MA">Morocco</option>
+																									<option value="MZ">Mozambique</option>
+																									<option value="MM">Myanmar</option>
+																									<option value="NA">Namibia</option>
+																									<option value="NR">Nauru</option>
+																									<option value="NP">Nepal</option>
+																									<option value="NL">Netherlands</option>
+																									<option value="AN">Netherlands Antilles</option>
+																									<option value="NC">New Caledonia</option>
+																									<option value="NZ">New Zealand</option>
+																									<option value="NI">Nicaragua</option>
+																									<option value="NE">Niger</option>
+																									<option value="NG">Nigeria</option>
+																									<option value="NU">Niue</option>
+																									<option value="NF">Norfolk Island</option>
+																									<option value="MP">Northern Mariana Islands</option>
+																									<option value="NO">Norway</option>
+																									<option value="OM">Oman</option>
+																									<option value="PK">Pakistan</option>
+																									<option value="PW">Palau</option>
+																									<option value="PA">Panama</option>
+																									<option value="PG">Papua New Guinea</option>
+																									<option value="PY">Paraguay</option>
+																									<option value="PE">Peru</option>
+																									<option value="PH">Philippines</option>
+																									<option value="PN">Pitcairn</option>
+																									<option value="PL">Poland</option>
+																									<option value="PT">Portugal</option>
+																									<option value="PR">Puerto Rico</option>
+																									<option value="QA">Qatar</option>
+																									<option value="RE">Reunion</option>
+																									<option value="RO">Romania</option>
+																									<option value="RU">Russian Federation</option>
+																									<option value="RW">Rwanda</option>
+																									<option value="KN">Saint Kitts and Nevis</option>
+																									<option value="LC">Saint LUCIA</option>
+																									<option value="VC">Saint Vincent and the Grenadines</option>
+																									<option value="WS">Samoa</option>
+																									<option value="SM">San Marino</option>
+																									<option value="ST">Sao Tome and Principe</option>
+																									<option value="SA">Saudi Arabia</option>
+																									<option value="SN">Senegal</option>
+																									<option value="SC">Seychelles</option>
+																									<option value="SL">Sierra Leone</option>
+																									<option value="SG">Singapore</option>
+																									<option value="SK">Slovakia (Slovak Republic)</option>
+																									<option value="SI">Slovenia</option>
+																									<option value="SB">Solomon Islands</option>
+																									<option value="SO">Somalia</option>
+																									<option value="ZA">South Africa</option>
+																									<option value="GS">South Georgia and the South Sandwich Islands</option>
+																									<option value="ES">Spain</option>
+																									<option value="LK">Sri Lanka</option>
+																									<option value="SH">St. Helena</option>
+																									<option value="PM">St. Pierre and Miquelon</option>
+																									<option value="SD">Sudan</option>
+																									<option value="SR">Suriname</option>
+																									<option value="SJ">Svalbard and Jan Mayen Islands</option>
+																									<option value="SZ">Swaziland</option>
+																									<option value="SE">Sweden</option>
+																									<option value="CH">Switzerland</option>
+																									<option value="SY">Syrian Arab Republic</option>
+																									<option value="TW">Taiwan, Province of China</option>
+																									<option value="TJ">Tajikistan</option>
+																									<option value="TZ">Tanzania, United Republic of</option>
+																									<option value="TH">Thailand</option>
+																									<option value="TG">Togo</option>
+																									<option value="TK">Tokelau</option>
+																									<option value="TO">Tonga</option>
+																									<option value="TT">Trinidad and Tobago</option>
+																									<option value="TN">Tunisia</option>
+																									<option value="TR">Turkey</option>
+																									<option value="TM">Turkmenistan</option>
+																									<option value="TC">Turks and Caicos Islands</option>
+																									<option value="TV">Tuvalu</option>
+																									<option value="UG">Uganda</option>
+																									<option value="UA">Ukraine</option>
+																									<option value="AE">United Arab Emirates</option>
+																									<option value="GB">United Kingdom</option>
+																									<option value="US">United States</option>
+																									<option value="UM">United States Minor Outlying Islands</option>
+																									<option value="UY">Uruguay</option>
+																									<option value="UZ">Uzbekistan</option>
+																									<option value="VU">Vanuatu</option>
+																									<option value="VE">Venezuela</option>
+																									<option value="VN">Viet Nam</option>
+																									<option value="VG">Virgin Islands (British)</option>
+																									<option value="VI">Virgin Islands (U.S.)</option>
+																									<option value="WF">Wallis and Futuna Islands</option>
+																									<option value="EH">Western Sahara</option>
+																									<option value="YE">Yemen</option>
+																									<option value="ZM">Zambia</option>
+																									<option value="ZW">Zimbabwe</option>
+																								</select>
+																								<span class="addon-tooltip">
+																									<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The country where the product was manufactured or produced.">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3"> CAS Number </label>
+																							<div class="col-md-9">
+																								<input type="text" class="form-control" />
+																								<span class="addon-tooltip">
+																									<span
+																										data-toggle="tooltip"
+																										data-container="body"
+																										data-placement="left"
+																										data-original-title="The Chemical Abstracts Service number, a unique identifier for chemicals, if applicable to the product.">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3"> Quantity </label>
+																							<div class="col-md-9">
+																								<input type="text" class="form-control" />
+																								<span class="addon-tooltip">
+																									<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The number of units of the product being declared.">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3"> Weight </label>
+																							<div class="col-md-9">
+																								<input type="text" class="form-control" />
+																								<span class="addon-tooltip">
+																									<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The weight of the product, usually measured in kilograms or tons.">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3"> Measurement </label>
+																							<div class="col-md-9">
+																								<select class="form-control">
+																									<option value="">Kg</option>
+																									<option value="">lbs</option>
+																									<option value="">MT</option>
+																								</select>
+																								<span class="addon-tooltip">
+																									<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The dimensions or size of the product, if applicable.">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3"> Volume in Units (CBM) </label>
+																							<div class="col-md-9">
+																								<input type="text" class="form-control" />
+																								<span class="addon-tooltip">
+																									<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The volume of the product in cubic meters, often used for bulk or large items.">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																						<div class="form-group col-md-6">
+																							<label class="col-md-3"> Value (AED) </label>
+																							<div class="col-md-9">
+																								<input type="text" class="form-control" />
+																								<span class="addon-tooltip">
+																									<span data-toggle="tooltip" data-container="body" data-placement="left" data-original-title="The monetary worth of the goods or service in UAE Dirhams (AED).">
+																										<i class="fa fa-info-circle"></i>
+																									</span>
+																								</span>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="widget-box">
+																		<div class="widget-header" data-action="collapse">
+																			<h4>Required Documents</h4>
+																			<span class="widget-toolbar"
+																				><a href="#"><i class="icon-chevron-down"></i></a
+																			></span>
+																		</div>
+																		<div class="widget-body">
+																			<div class="widget-main">
+																				<div class="row">
+																					<div class="col-sm-12">
+																						<div class="table-responsive">
+																							<button type="button" class="addRowBtn btn btn-sm btn-secondary float-right mb-4">Add New Row</button>
+																							<table class="table table-bordered w-100 myTable fLeft">
+																								<thead>
+																									<tr>
+																										<th>Document Name</th>
+																										<th width="200px">File</th>
+																										<th width="440px">Actions</th>
+																									</tr>
+																								</thead>
+																								<tbody>
+																									<tr>
+																										<td>
+																											First Entry Bill
+																											<span
+																												class="ml-2"
+																												data-toggle="tooltip"
+																												data-placement="right"
+																												data-original-title="The initial customs document or bill generated for the shipment's entry, indicating details of the consignment and customs charges."
+																												><i class="fa fa-info-circle"></i
+																											></span>
+																										</td>
+																										<td><a href="../assets/global/img/bill.png" target="_blank">bill.png</a></td>
+																										<td>
+																											<a href="#" class="btn btn-icon-only"><i class="fa fa-trash"></i></a>
+																											<a href="../assets/global/img/bill.png" class="btn btn-icon-only" target="_blank"><i class="fa fa-eye"></i></a>
+																										</td>
+																									</tr>
+																									<tr>
+																										<td>
+																											Invoice (If Available)
+																											<span
+																												class="ml-2"
+																												data-toggle="tooltip"
+																												data-placement="right"
+																												data-original-title="A commercial document listing the goods or services provided, along with prices, quantities, and transaction details, submitted with the customs request if applicable."
+																												><i class="fa fa-info-circle"></i
+																											></span>
+																										</td>
+																										<td></td>
+																										<td>
+																											<div class="d-flex">
+																												<div class="d-flex" style="flex: 1">
+																													<input type="file" class="form-control" />
+																												</div>
+																												<button class="btn btn-sm btn-light" type="button">Upload File</button>
+																											</div>
+																										</td>
+																									</tr>
+																									<tr>
+																										<td>
+																											Bill of Loading (If Available)
+																											<span
+																												class="ml-2"
+																												data-toggle="tooltip"
+																												data-placement="right"
+																												data-original-title="A document issued by a carrier to acknowledge receipt of cargo for shipment, used to verify shipping details and ownership."
+																												><i class="fa fa-info-circle"></i
+																											></span>
+																										</td>
+																										<td></td>
+																										<td>
+																											<div class="d-flex">
+																												<div class="d-flex" style="flex: 1">
+																													<input type="file" class="form-control" />
+																												</div>
+																												<button class="btn btn-sm btn-light" type="button">Upload File</button>
+																											</div>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<!-- Extra Items Will Append Here -->
+													</div>
+												</div>
+												<div class="alert alert-info d-flex align-items-center" role="alert">
+													<i class="fa fa-check media-object font-lg"></i>
+													<span style="margin-left: 5px"> The client hereby acknowledges that this Good Classification provided by Dubai Customs is non binding and issued based on the information shared by the Client. </span>
+												</div>
+												<div class="form-actions">
+													<button class="btn btn-sm btn-primary prev-step" type="button">
+														<span>Back</span>
+													</button>
+													<button class="btn btn-sm btn-primary next-step" type="button">
+														<span>Submit and Proceed to Pay</span>
+													</button>
+												</div>
+											</div>
+											<div class="tab-pane" role="tabpanel" id="step3">
+												<div class="alert alert-success">
+													<strong>Success!</strong> Your request
+													<strong> <a href="track-request.html">TAR-GC-240824-002</a></strong>
+													has been submitted successfully! and is
+													<strong>valid for X no of days</strong>
+													before the payment is made.
+												</div>
+												<div class="row">
+													<div class="col-lg-12">
+														<div class="table-responsive">
+															<table class="table table-striped table-bordered table-advance fLeft">
+																<thead>
+																	<tr>
+																		<th>Charge Type</th>
+																		<th width="200px">Number of items</th>
+																		<th>Rate (AED)</th>
+																		<th width="150" class="text-right">Amount (AED)</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Goods Classification Fee</td>
+																		<td>2</td>
+																		<td>25</td>
+																		<td class="text-right">50.00</td>
+																	</tr>
+																	<tr>
+																		<td>Knowledge and Innovation Fee</td>
+																		<td>1</td>
+																		<td>20</td>
+																		<td class="text-right">20.00</td>
+																	</tr>
+																	<tr>
+																		<th colspan="3" class="text-left">Total Amount</th>
+																		<th class="text-right">70.00</th>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+												<div class="row mb-5 mt-5">
+													<div class="col-md-12">
+														<div class="form-group col-md-6">
+															<label class="col-md-3">Payment Method</label>
+															<div class="col-md-9">
+																<select class="selectpicker form-control" id="paymentMethod" onchange="handlePaymentMethodChange()">
+																	<option value="card" selected>Credit / Debit Account</option>
+																	<option value="epayment">E Payment</option>
+																</select>
+															</div>
+														</div>
+														<div class="form-group col-md-6 cardDetails">
+															<label class="col-md-3">Account Number <span class="text-danger">*</span></label>
+															<div class="col-md-9">
+																<select class="selectpicker form-control ACType">
+																	<option value="primary" selected>123456789</option>
+																	<option value="secondary">9876546321</option>
+																</select>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="row cardDetails">
+													<div class="col-lg-12">
+														<div class="alert alert-info d-flex align-items-center" role="alert">
+															<i class="fa fa-check media-object font-lg"></i>
+															<span style="margin-left: 5px">
+																By clicking on 'Confirm Payment' button, you are authorizing us to charge your account for
+																<strong>AED 70.00</strong>
+																amount.
+															</span>
+														</div>
+													</div>
+													<div class="form-actions text-right">
+														<!-- <button class="btn btn-sm btn-primary prev-step" type="button">
+                                                        <span>Back</span>
+                                                    </button> -->
+														<a href="payment_goods_classification.html" class="btn btn-sm btn-primary">
+															<span>Confirm Payment</span>
+														</a>
+													</div>
+												</div>
+												<div class="row epaymentDetails" style="display: none">
+													<div class="col-lg-12">
+														<div class="alert alert-info d-flex align-items-center" role="alert">
+															<i class="fa fa-check media-object font-lg"></i>
+															<span style="margin-left: 5px">
+																By clicking on 'Confirm Payment' button, you are authorizing us to redirect your request for payment of
+																<strong>AED 70.00</strong>
+																through Dubai E-Government payment site.
+															</span>
+														</div>
+													</div>
+													<div class="form-actions text-right">
+														<!-- <button class="btn btn-sm btn-primary prev-step" type="button">
+                                                        <span>Back</span>
+                                                    </button> -->
+														<a href="payment_dubai_pay.html" class="btn btn-sm btn-primary">
+															<span>Confirm Payment</span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Verify Modal -->
+		<div class="modal fade" id="verifyModal" tabindex="-1" role="dialog" aria-labelledby="verifyModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h5 class="modal-title" id="verifyModalLabel">Authenticate Your Email</h5>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-lg-12">
+								<p class="mt-5">
+									Please enter the code sent to:
+									<strong>emailaddress@mail.com</strong>
+									<span class="ml-2" data-toggle="tooltip" data-placement="right" data-original-title="A temporary, secure password generated for authenticating the user’s access or submission request, enhancing security."
+										><i class="fa fa-info-circle"></i
+									></span>
+								</p>
+								<div class="row" style="margin-bottom: 15px">
+									<div class="col-lg-12">
+										<input type="text" class="form-control" maxlength="5" id="otpInput" placeholder="Enter OTP" onkeypress="return event.charCode &gt;= 48 &amp;&amp; event.charCode &lt;= 57" />
+									</div>
+								</div>
+								<div class="row mb-5">
+									<div class="col-lg-12">
+										<svg id="Default" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="303" height="76" viewBox="0 0 303 76">
+											<g id="reCAPTCHA_Default" data-name="reCAPTCHA / Default">
+												<g id="bg" fill="#f9f9f9" stroke-miterlimit="10">
+													<path
+														d="M 301 75.5 L 2 75.5 C 1.172884583473206 75.5 0.5 74.82711791992188 0.5 74 L 0.5 2 C 0.5 1.172884583473206 1.172884583473206 0.5 2 0.5 L 301 0.5 C 301.8271179199219 0.5 302.5 1.172884583473206 302.5 2 L 302.5 74 C 302.5 74.82711791992188 301.8271179199219 75.5 301 75.5 Z"
+														stroke="none" />
+													<path
+														d="M 2 1 C 1.448577880859375 1 1 1.448585510253906 1 2 L 1 74 C 1 74.55141448974609 1.448577880859375 75 2 75 L 301 75 C 301.5514221191406 75 302 74.55141448974609 302 74 L 302 2 C 302 1.448585510253906 301.5514221191406 1 301 1 L 2 1 M 2 0 L 301 0 C 302.1045837402344 0 303 0.895416259765625 303 2 L 303 74 C 303 75.10458374023438 302.1045837402344 76 301 76 L 2 76 C 0.895416259765625 76 0 75.10458374023438 0 74 L 0 2 C 0 0.895416259765625 0.895416259765625 0 2 0 Z"
+														stroke="none"
+														fill="#d3d3d3" />
+												</g>
+												<g id="Small_text" data-name="Small text" transform="translate(238 48)">
+													<text id="reCAPTCHA" transform="translate(49 10)" fill="#555" font-size="10" font-family="Roboto-Regular, Roboto" letter-spacing="-0.06em">
+														<tspan x="-49.438" y="0">reCAPTCHA</tspan>
+													</text>
+													<text id="Privacy_-_Terms" data-name="Privacy - Terms" transform="translate(49 20)" fill="#555" font-size="8" font-family="Roboto-Regular, Roboto" letter-spacing="-0.06em">
+														<tspan x="-47.983" y="0">Privacy - Terms</tspan>
+													</text>
+												</g>
+												<image
+													id="Logo_reCAPTCHA"
+													data-name="Logo reCAPTCHA"
+													width="42"
+													height="42"
+													transform="translate(242 7)"
+													xlink:href="data:image/png;base64,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" />
+												<g id="Checkbox_Label" data-name="Checkbox + Label" transform="translate(12 24)">
+													<g id="checkbox" fill="#fff" stroke-miterlimit="10">
+														<path d="M 27 27 L 1 27 L 1 1 L 27 1 L 27 27 Z" stroke="none" />
+														<path
+															d="M 2 2 L 2 26 L 26 26 L 26 2 L 2 2 M 1 0 L 27 0 C 27.55228042602539 0 28 0.4477195739746094 28 1 L 28 27 C 28 27.55228042602539 27.55228042602539 28 27 28 L 1 28 C 0.4477195739746094 28 0 27.55228042602539 0 27 L 0 1 C 0 0.4477195739746094 0.4477195739746094 0 1 0 Z"
+															stroke="none"
+															fill="#cbcbcb" />
+													</g>
+													<text id="label" transform="translate(40 21)" fill="#3c3b3b" font-size="14" font-family="Roboto-Regular, Roboto">
+														<tspan x="0" y="0">I’m not a robot</tspan>
+													</text>
+												</g>
+											</g>
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer text-right">
+						<button type="button" class="btn btn-sm btn-primary" data-dismiss="modal" onclick="$('.VEmail').hide();$('.has-success').show();">Verify</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/js/bootstrap-datepicker.min.js"></script>
+		<script src="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/js/bootstrap.min.js"></script>
+		<script src="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/js/ace-elements.min.js"></script>
+		<script src="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/js/ace.min.js"></script>
+		<script src="https://mirsal2new.dubaitrade.ae/common/2.0.6.0/js/footable.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery.ui.widget@1.10.3/jquery.ui.widget.min.js"></script>
+		<script src="https://mirsal2new.dubaitrade.ae/otrs/resources/js/common.min.js"></script>
+		<script src="https://mirsal2new.dubaitrade.ae/otrs/js/genericdisplay/footable.paginate.min.js"></script>
+		<script src="https://mirsal2new.dubaitrade.ae/otrs/resources/js/resizeOTRS.js"></script>
+		<script src="https://mirsal2new.dubaitrade.ae/otrs/resources/js/application.js"></script>
+		<script src="https://mirsal2new.dubaitrade.ae/otrs/resources/js/jquery-fileupload/vendor/jquery.ui.widget.js"></script>
+		<script src="https://mirsal2new.dubaitrade.ae/otrs/resources/js/jquery-fileupload/jquery.fileupload.js"></script>
+		<script src="https://mirsal2new.dubaitrade.ae/otrs/resources/js/jquery-fileupload/jquery.iframe-transport.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+		<!-- (Optional) Latest compiled and minified JavaScript translation files -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/i18n/defaults-*.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@24.5.0/build/js/intlTelInput.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/summernote@0.9.1/dist/summernote.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap-switch@3.3.2/dist/js/bootstrap-switch.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.all.min.js"></script>
+		<script>
+			// ------------step-wizard-------------
+			$(document).ready(function () {
+				$(".nav-tabs > li a[title]").tooltip();
+				// Wizard
+				$('a[data-toggle="tab"]').on("show.bs.tab", function (e) {
+					var $target = $(e.target);
+					if ($target.parent().hasClass("disabled")) {
+						return false;
+					}
+				});
+				$(".next-step").click(function (e) {
+					var $active = $(".wizard .nav-tabs li.active");
+					$active.addClass("completed"); // Mark previous step as completed
+					$active.next().removeClass("disabled");
+					nextTab($active);
+				});
+				$(".prev-step").click(function (e) {
+					var $active = $(".wizard .nav-tabs li.active");
+					$active.removeClass("completed"); // Remove color from current step
+					prevTab($active);
+				});
+				function nextTab(elem) {
+					$(elem).next().find('a[data-toggle="tab"]').click();
+				}
+				function prevTab(elem) {
+					$(elem).prev().find('a[data-toggle="tab"]').click();
+				}
+			});
+		</script>
+		<script>
+			function handlePaymentMethodChange() {
+				var selectedValue = $("#paymentMethod").val();
+				if (selectedValue === "card") {
+					$(".cardDetails").show();
+					$(".epaymentDetails").hide();
+				} else if (selectedValue === "epayment") {
+					$(".cardDetails").hide();
+					$(".epaymentDetails").show();
+				}
+			}
+			function DCStageCheck() {
+				$(".DCStage").on("change", function () {
+					const selectedValue = $(this).val();
+					if (selectedValue) {
+						var closestDCNumber = $(this).closest(".form-group").next(".DCNumbr");
+						if (selectedValue.toLowerCase() === "pre-entry") {
+							closestDCNumber.hide();
+						} else {
+							closestDCNumber.show();
+						}
+						//alert(selectedValue);
+					}
+				});
+			}
+			function DeleteItem(TAR) {
+				Swal.fire({
+					title: "Are you sure?",
+					text: "to delete this item?",
+					type: "warning",
+					icon: "warning",
+					showCancelButton: true,
+					confirmButtonColor: "#3085d6",
+					cancelButtonColor: "#d33",
+					confirmButtonText: "Yes, Proceed!",
+					cancelButtonText: "No!",
+				}).then((result) => {
+					if (result.isConfirmed) {
+						$(TAR).remove();
+					}
+				});
+			}
+			$(document).ready(function () {
+				handlePaymentMethodChange();
+				//// Declaration Check
+				DCStageCheck();
+				$(".make-switch").bootstrapSwitch();
+				// Event listener for switch change
+				$(".make-switch").on("switchChange.bootstrapSwitch", function (event, state) {
+					var $this = $(this); // Store a reference to the checkbox
+					if (!state) {
+						// When switching OFF
+						// Show SweetAlert confirmation
+						Swal.fire({
+							title: "Are you sure?",
+							text: "Your data for multiple items will be lost.",
+							type: "warning",
+							icon: "warning",
+							showCancelButton: true,
+							confirmButtonColor: "#3085d6",
+							cancelButtonColor: "#d33",
+							confirmButtonText: "Yes, Proceed!",
+							cancelButtonText: "Cancel!",
+						}).then((result) => {
+							if (result.isConfirmed) {
+								// User confirmed, proceed with turning off
+								console.log("Switch is now OFF");
+								$("#singleForm").show(); // Show single form
+								$(".multiple").hide(); // Hide multiple form
+							} else if (result.isDenied) {
+								// User canceled, revert switch back to ON
+								$this.bootstrapSwitch("state", true, true); // Use the stored reference
+								console.log("Switch is reverted to ON");
+							}
+						});
+					} else {
+						// When switching ON
+						// Handle switching ON directly without confirmation
+						$("#singleForm").hide(); // Hide single form
+						$(".multiple").show(); // Show multiple form
+						console.log("Switch is now ON");
+					}
+					DCStageCheck();
+				});
+				//////// SUMMERNOTE
+				if ($(".summernote").length) {
+					$(".summernote").summernote({
+						height: 200,
+						toolbar: [
+							["style", ["style"]],
+							["font", ["bold", "italic", "underline", "clear"]],
+							["fontname", ["fontname"]],
+							["color", ["color"]],
+							["para", ["ul", "ol", "paragraph"]],
+							["height", ["height"]],
+							["table", ["table"]],
+						],
+					});
+				}
+				//////// INPUT PHONE
+				const inputMobile = document.querySelector("#mobileNo");
+				const inputPhone = document.querySelector("#phoneNo");
+				window.intlTelInput(inputMobile, {
+					initialCountry: "ae",
+					containerClass: "w-100",
+					utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@24.5.0/build/js/utils.js",
+				});
+				window.intlTelInput(inputPhone, {
+					initialCountry: "ae",
+					containerClass: "w-100",
+					utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@24.5.0/build/js/utils.js",
+				});
+				$(document).on("click", ".addRowBtn", function () {
+					var newRow = `
+                <tr>
+                    <td><input type="text" class="form-control" /></td>
+                    <td>&nbsp;</td>
+                    <td><input type="file" class="form-control" /></td>
+                </tr>
+            `;
+					$(this).siblings(".myTable").find("tbody").append(newRow);
+				});
+			});
+			function AddNewItem() {
+				var counterup = parseInt($("#PCounter").val());
+				var targetDiv = $("#accordion1");
+				// Collapse all existing panels
+				targetDiv.find(".panel-collapse.in").collapse("hide");
+				// Counter up
+				$("#PCounter").val(counterup + 1);
+				var copyform = `<div class="panel panel-default panel${counterup + 1}">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle d-flex accordion-toggle-styled" data-toggle="collapse" data-parent="#accordion1" href="#collapse_${counterup + 1}" aria-expanded="true">
+                                            Item ${counterup + 1}
+                                        </a>
+                                        <a href="#" class="btn btn-icon-only last-child" onclick="DeleteItem('.panel${counterup + 1}');"><i class="fa fa-trash"></i></a>
+                                    </h4>
+                                </div>
+                                <div id="collapse_${counterup + 1}" class="panel-collapse collapse in" aria-expanded="true">
+                                    <div class="panel-body">
+                                        <div class="widget-box">
+                                            <div class="widget-header" data-action="collapse">
+                                                <h4>
+                                                    Information
+                                                </h4>
+                                                <span class="widget-toolbar">
+                                                    <a href="#">
+                                                        <i class="icon-chevron-down"></i>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                            <div class="widget-body">
+                                                <div class="widget-main">
+                                                    <div class="row">
+                                                        <div class="col-xs-12">
+                                                            <div class="form-group col-md-6">
+                                                                <label for="subject" class="col-md-3">
+                                                                    Subject
+                                                                    <b id="sub_star" class="text-error">*</b>
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <textarea name="" id="" class="form-control" readonly>Request for Goods Classification</textarea>
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title="The title or main topic for the request or communication.">
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">Product Description
+                                                                    <b id="desc_star" class="text-error">*</b>
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <textarea name="" id="" class="form-control"></textarea>
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title="Detailed explanation of the request or case.">
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                                <!-- <div name="summernote" class="summernote"></div> -->
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">Stage of Declaration
+                                                                    <span class="text-danger">*</span>
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <select class="form-control DCStage">
+                                                                        <option value="pre-entry">Pre-entry</option>
+                                                                        <option value="post-clearance">Post-clearance</option>
+                                                                        <option value="in-process">In-Process</option>
+                                                                    </select>
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title='The current status or stage of the declaration process, such as "pending" or "completed."'>
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6 DCNumbr" style="display: none">
+                                                                <label class="col-md-3">Declaration Number <b class="text-error">*</b></label>
+                                                                <div class="col-md-9">
+                                                                    <input type="text" class="form-control" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">
+                                                                    Client Envisaged HS Code
+                                                                    <span class="text-danger">*</span>
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <select class="selectpicker form-control" data-live-search="true">
+                                                                        <option value="0101.21">0101.21 - Horses, live, for breeding</option>
+                                                                        <option value="0201.30">0201.30 - Meat of bovine animals, boneless</option>
+                                                                        <option value="0302.12">0302.12 - Fresh or chilled salmon</option>
+                                                                        <option value="0402.10">0402.10 - Milk and cream, concentrated</option>
+                                                                        <option value="0602.90">0602.90 - Other live plants</option>
+                                                                        <option value="0703.10">0703.10 - Onions and shallots</option>
+                                                                        <option value="0803.90">0803.90 - Other bananas, fresh</option>
+                                                                        <option value="0901.21">0901.21 - Coffee, roasted, not decaffeinated</option>
+                                                                        <option value="1001.90">1001.90 - Wheat and meslin</option>
+                                                                        <option value="1101.00">1101.00 - Wheat or meslin flour</option>
+                                                                        <option value="1201.90">1201.90 - Other soybeans</option>
+                                                                        <option value="1507.10">1507.10 - Crude soya-bean oil</option>
+                                                                        <option value="1701.13">1701.13 - Cane sugar, raw</option>
+                                                                        <option value="1806.90">1806.90 - Other chocolate and cocoa products</option>
+                                                                        <option value="1905.90">1905.90 - Other baked goods</option>
+                                                                        <option value="2202.10">2202.10 - Waters, including mineral</option>
+                                                                        <option value="2710.19">2710.19 - Other petroleum oils</option>
+                                                                        <option value="3004.90">3004.90 - Other medicaments</option>
+                                                                        <option value="3923.21">3923.21 - Sacks and bags, of polymers</option>
+                                                                        <option value="8528.72">8528.72 - Projectors, capable of directly connecting to a monitor</option>
+                                                                    </select>
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title='The Harmonized System code used for classifying goods in international trade.'>
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">
+                                                                    Any Information/data confirming Envisaged Classification
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <input type="text" class="form-control" />
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title='Supporting data or evidence provided by the client to confirm the suggested classification.'>
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">
+                                                                    Commercial Designation and Additional Information
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <input type="text" class="form-control" />
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title='Trade name and any supplementary details about the goods.'>
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">
+                                                                    Product Trade Name
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <input type="text" class="form-control" />
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title='The specific trade or brand name under which the product is marketed or known commercially.'>
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">
+                                                                    Use of the Product
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <input type="text" class="form-control" />
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title='The intended purpose or application of the product.'>
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">
+                                                                    Product Material
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <input type="text" class="form-control" />
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title='The primary material or substance that makes up the product.'>
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">
+                                                                    Country of Origin
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <select class="selectpicker form-control" data-live-search="true" data-size="8">
+                                                                        <option value="0" selected disabled hidden>Select Country</option>
+                                                                        <option value="AF">Afghanistan</option>
+                                                                        <option value="AL">Albania</option>
+                                                                        <option value="DZ">Algeria</option>
+                                                                        <option value="AS">American Samoa</option>
+                                                                        <option value="AD">Andorra</option>
+                                                                        <option value="AO">Angola</option>
+                                                                        <option value="AI">Anguilla</option>
+                                                                        <option value="AR">Argentina</option>
+                                                                        <option value="AM">Armenia</option>
+                                                                        <option value="AW">Aruba</option>
+                                                                        <option value="AU">Australia</option>
+                                                                        <option value="AT">Austria</option>
+                                                                        <option value="AZ">Azerbaijan</option>
+                                                                        <option value="BS">Bahamas</option>
+                                                                        <option value="BH">Bahrain</option>
+                                                                        <option value="BD">Bangladesh</option>
+                                                                        <option value="BB">Barbados</option>
+                                                                        <option value="BY">Belarus</option>
+                                                                        <option value="BE">Belgium</option>
+                                                                        <option value="BZ">Belize</option>
+                                                                        <option value="BJ">Benin</option>
+                                                                        <option value="BM">Bermuda</option>
+                                                                        <option value="BT">Bhutan</option>
+                                                                        <option value="BO">Bolivia</option>
+                                                                        <option value="BA">Bosnia and Herzegowina</option>
+                                                                        <option value="BW">Botswana</option>
+                                                                        <option value="BV">Bouvet Island</option>
+                                                                        <option value="BR">Brazil</option>
+                                                                        <option value="IO">British Indian Ocean Territory</option>
+                                                                        <option value="BN">Brunei Darussalam</option>
+                                                                        <option value="BG">Bulgaria</option>
+                                                                        <option value="BF">Burkina Faso</option>
+                                                                        <option value="BI">Burundi</option>
+                                                                        <option value="KH">Cambodia</option>
+                                                                        <option value="CM">Cameroon</option>
+                                                                        <option value="CA">Canada</option>
+                                                                        <option value="CV">Cape Verde</option>
+                                                                        <option value="KY">Cayman Islands</option>
+                                                                        <option value="CF">Central African Republic</option>
+                                                                        <option value="TD">Chad</option>
+                                                                        <option value="CL">Chile</option>
+                                                                        <option value="CN">China</option>
+                                                                        <option value="CX">Christmas Island</option>
+                                                                        <option value="CC">Cocos (Keeling) Islands</option>
+                                                                        <option value="CO">Colombia</option>
+                                                                        <option value="KM">Comoros</option>
+                                                                        <option value="CG">Congo</option>
+                                                                        <option value="CD">Congo, the Democratic Republic of the</option>
+                                                                        <option value="CK">Cook Islands</option>
+                                                                        <option value="CR">Costa Rica</option>
+                                                                        <option value="CI">Cote d'Ivoire</option>
+                                                                        <option value="HR">Croatia (Hrvatska)</option>
+                                                                        <option value="CU">Cuba</option>
+                                                                        <option value="CY">Cyprus</option>
+                                                                        <option value="CZ">Czech Republic</option>
+                                                                        <option value="DK">Denmark</option>
+                                                                        <option value="DJ">Djibouti</option>
+                                                                        <option value="DM">Dominica</option>
+                                                                        <option value="DO">Dominican Republic</option>
+                                                                        <option value="EC">Ecuador</option>
+                                                                        <option value="EG">Egypt</option>
+                                                                        <option value="SV">El Salvador</option>
+                                                                        <option value="GQ">Equatorial Guinea</option>
+                                                                        <option value="ER">Eritrea</option>
+                                                                        <option value="EE">Estonia</option>
+                                                                        <option value="ET">Ethiopia</option>
+                                                                        <option value="FK">Falkland Islands (Malvinas)</option>
+                                                                        <option value="FO">Faroe Islands</option>
+                                                                        <option value="FJ">Fiji</option>
+                                                                        <option value="FI">Finland</option>
+                                                                        <option value="FR">France</option>
+                                                                        <option value="GF">French Guiana</option>
+                                                                        <option value="PF">French Polynesia</option>
+                                                                        <option value="TF">French Southern Territories</option>
+                                                                        <option value="GA">Gabon</option>
+                                                                        <option value="GM">Gambia</option>
+                                                                        <option value="GE">Georgia</option>
+                                                                        <option value="DE">Germany</option>
+                                                                        <option value="GH">Ghana</option>
+                                                                        <option value="GI">Gibraltar</option>
+                                                                        <option value="GR">Greece</option>
+                                                                        <option value="GL">Greenland</option>
+                                                                        <option value="GD">Grenada</option>
+                                                                        <option value="GP">Guadeloupe</option>
+                                                                        <option value="GU">Guam</option>
+                                                                        <option value="GT">Guatemala</option>
+                                                                        <option value="GN">Guinea</option>
+                                                                        <option value="GW">Guinea-Bissau</option>
+                                                                        <option value="GY">Guyana</option>
+                                                                        <option value="HT">Haiti</option>
+                                                                        <option value="HM">Heard and Mc Donald Islands</option>
+                                                                        <option value="VA">Holy See (Vatican City State)</option>
+                                                                        <option value="HN">Honduras</option>
+                                                                        <option value="HK">Hong Kong</option>
+                                                                        <option value="HU">Hungary</option>
+                                                                        <option value="IS">Iceland</option>
+                                                                        <option value="IN">India</option>
+                                                                        <option value="ID">Indonesia</option>
+                                                                        <option value="IR">Iran (Islamic Republic of)</option>
+                                                                        <option value="IQ">Iraq</option>
+                                                                        <option value="IE">Ireland</option>
+                                                                        <option value="IL">Israel</option>
+                                                                        <option value="IT">Italy</option>
+                                                                        <option value="JM">Jamaica</option>
+                                                                        <option value="JP">Japan</option>
+                                                                        <option value="JO">Jordan</option>
+                                                                        <option value="KZ">Kazakhstan</option>
+                                                                        <option value="KE">Kenya</option>
+                                                                        <option value="KI">Kiribati</option>
+                                                                        <option value="KP">Korea, Democratic People's Republic of</option>
+                                                                        <option value="KR">Korea, Republic of</option>
+                                                                        <option value="KW">Kuwait</option>
+                                                                        <option value="KG">Kyrgyzstan</option>
+                                                                        <option value="LA">Lao People's Democratic Republic</option>
+                                                                        <option value="LV">Latvia</option>
+                                                                        <option value="LB">Lebanon</option>
+                                                                        <option value="LS">Lesotho</option>
+                                                                        <option value="LR">Liberia</option>
+                                                                        <option value="LY">Libyan Arab Jamahiriya</option>
+                                                                        <option value="LI">Liechtenstein</option>
+                                                                        <option value="LT">Lithuania</option>
+                                                                        <option value="LU">Luxembourg</option>
+                                                                        <option value="MO">Macau</option>
+                                                                        <option value="MK">Macedonia, The Former Yugoslav Republic of</option>
+                                                                        <option value="MG">Madagascar</option>
+                                                                        <option value="MW">Malawi</option>
+                                                                        <option value="MY">Malaysia</option>
+                                                                        <option value="MV">Maldives</option>
+                                                                        <option value="ML">Mali</option>
+                                                                        <option value="MT">Malta</option>
+                                                                        <option value="MH">Marshall Islands</option>
+                                                                        <option value="MQ">Martinique</option>
+                                                                        <option value="MR">Mauritania</option>
+                                                                        <option value="MU">Mauritius</option>
+                                                                        <option value="YT">Mayotte</option>
+                                                                        <option value="MX">Mexico</option>
+                                                                        <option value="FM">Micronesia, Federated States of</option>
+                                                                        <option value="MD">Moldova, Republic of</option>
+                                                                        <option value="MC">Monaco</option>
+                                                                        <option value="MN">Mongolia</option>
+                                                                        <option value="MS">Montserrat</option>
+                                                                        <option value="MA">Morocco</option>
+                                                                        <option value="MZ">Mozambique</option>
+                                                                        <option value="MM">Myanmar</option>
+                                                                        <option value="NA">Namibia</option>
+                                                                        <option value="NR">Nauru</option>
+                                                                        <option value="NP">Nepal</option>
+                                                                        <option value="NL">Netherlands</option>
+                                                                        <option value="AN">Netherlands Antilles</option>
+                                                                        <option value="NC">New Caledonia</option>
+                                                                        <option value="NZ">New Zealand</option>
+                                                                        <option value="NI">Nicaragua</option>
+                                                                        <option value="NE">Niger</option>
+                                                                        <option value="NG">Nigeria</option>
+                                                                        <option value="NU">Niue</option>
+                                                                        <option value="NF">Norfolk Island</option>
+                                                                        <option value="MP">Northern Mariana Islands</option>
+                                                                        <option value="NO">Norway</option>
+                                                                        <option value="OM">Oman</option>
+                                                                        <option value="PK">Pakistan</option>
+                                                                        <option value="PW">Palau</option>
+                                                                        <option value="PA">Panama</option>
+                                                                        <option value="PG">Papua New Guinea</option>
+                                                                        <option value="PY">Paraguay</option>
+                                                                        <option value="PE">Peru</option>
+                                                                        <option value="PH">Philippines</option>
+                                                                        <option value="PN">Pitcairn</option>
+                                                                        <option value="PL">Poland</option>
+                                                                        <option value="PT">Portugal</option>
+                                                                        <option value="PR">Puerto Rico</option>
+                                                                        <option value="QA">Qatar</option>
+                                                                        <option value="RE">Reunion</option>
+                                                                        <option value="RO">Romania</option>
+                                                                        <option value="RU">Russian Federation</option>
+                                                                        <option value="RW">Rwanda</option>
+                                                                        <option value="KN">Saint Kitts and Nevis</option>
+                                                                        <option value="LC">Saint LUCIA</option>
+                                                                        <option value="VC">Saint Vincent and the Grenadines</option>
+                                                                        <option value="WS">Samoa</option>
+                                                                        <option value="SM">San Marino</option>
+                                                                        <option value="ST">Sao Tome and Principe</option>
+                                                                        <option value="SA">Saudi Arabia</option>
+                                                                        <option value="SN">Senegal</option>
+                                                                        <option value="SC">Seychelles</option>
+                                                                        <option value="SL">Sierra Leone</option>
+                                                                        <option value="SG">Singapore</option>
+                                                                        <option value="SK">Slovakia (Slovak Republic)</option>
+                                                                        <option value="SI">Slovenia</option>
+                                                                        <option value="SB">Solomon Islands</option>
+                                                                        <option value="SO">Somalia</option>
+                                                                        <option value="ZA">South Africa</option>
+                                                                        <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                                                        <option value="ES">Spain</option>
+                                                                        <option value="LK">Sri Lanka</option>
+                                                                        <option value="SH">St. Helena</option>
+                                                                        <option value="PM">St. Pierre and Miquelon</option>
+                                                                        <option value="SD">Sudan</option>
+                                                                        <option value="SR">Suriname</option>
+                                                                        <option value="SJ">Svalbard and Jan Mayen Islands</option>
+                                                                        <option value="SZ">Swaziland</option>
+                                                                        <option value="SE">Sweden</option>
+                                                                        <option value="CH">Switzerland</option>
+                                                                        <option value="SY">Syrian Arab Republic</option>
+                                                                        <option value="TW">Taiwan, Province of China</option>
+                                                                        <option value="TJ">Tajikistan</option>
+                                                                        <option value="TZ">Tanzania, United Republic of</option>
+                                                                        <option value="TH">Thailand</option>
+                                                                        <option value="TG">Togo</option>
+                                                                        <option value="TK">Tokelau</option>
+                                                                        <option value="TO">Tonga</option>
+                                                                        <option value="TT">Trinidad and Tobago</option>
+                                                                        <option value="TN">Tunisia</option>
+                                                                        <option value="TR">Turkey</option>
+                                                                        <option value="TM">Turkmenistan</option>
+                                                                        <option value="TC">Turks and Caicos Islands</option>
+                                                                        <option value="TV">Tuvalu</option>
+                                                                        <option value="UG">Uganda</option>
+                                                                        <option value="UA">Ukraine</option>
+                                                                        <option value="AE">United Arab Emirates</option>
+                                                                        <option value="GB">United Kingdom</option>
+                                                                        <option value="US">United States</option>
+                                                                        <option value="UM">United States Minor Outlying Islands</option>
+                                                                        <option value="UY">Uruguay</option>
+                                                                        <option value="UZ">Uzbekistan</option>
+                                                                        <option value="VU">Vanuatu</option>
+                                                                        <option value="VE">Venezuela</option>
+                                                                        <option value="VN">Viet Nam</option>
+                                                                        <option value="VG">Virgin Islands (British)</option>
+                                                                        <option value="VI">Virgin Islands (U.S.)</option>
+                                                                        <option value="WF">Wallis and Futuna Islands</option>
+                                                                        <option value="EH">Western Sahara</option>
+                                                                        <option value="YE">Yemen</option>
+                                                                        <option value="ZM">Zambia</option>
+                                                                        <option value="ZW">Zimbabwe</option>
+                                                                    </select>
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title='The country where the product was manufactured or produced.'>
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">
+                                                                    CAS Number
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <input type="text" class="form-control" />
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title='The Chemical Abstracts Service number, a unique identifier for chemicals, if applicable to the product.'>
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">
+                                                                    Quantity
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <input type="text" class="form-control" />
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title='The number of units of the product being declared.'>
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">
+                                                                    Weight
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <input type="text" class="form-control" />
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title='The weight of the product, usually measured in kilograms or tons.'>
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">
+                                                                    Measurement
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <select class="form-control">
+                                                                        <option value="">Kg</option>
+                                                                        <option value="">lbs</option>
+                                                                        <option value="">MT</option>
+                                                                    </select>
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title='The dimensions or size of the product, if applicable.'>
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">
+                                                                    Volume in Units (CBM)
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <input type="text" class="form-control" />
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title='The volume of the product in cubic meters, often used for bulk or large items.'>
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label class="col-md-3">
+                                                                    Value (AED)
+                                                                </label>
+                                                                <div class="col-md-9">
+                                                                    <input type="text" class="form-control" />
+                                                                    <span class="addon-tooltip">
+                                                                        <span data-toggle="tooltip" data-container="body" data-placement="left"
+                                                                            data-original-title='The monetary worth of the goods or service in UAE Dirhams (AED).'>
+                                                                            <i class="fa fa-info-circle"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="widget-box">
+                                            <div class="widget-header" data-action="collapse">
+                                                <h4>
+                                                    Attachments
+                                                </h4>
+                                                <span class="widget-toolbar"><a href="#"><i class="icon-chevron-down"></i></a></span>
+                                            </div>
+                                            <div class="widget-body">
+                                                <div class="widget-main">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <div class="table-responsive">
+                                                                <button type="button" class="addRowBtn btn btn-sm btn-secondary float-right mb-4">Add New
+                                                                    Row</button>
+                                                                <table class="table table-bordered w-100 myTable fLeft">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Document Name</th>
+                                                                            <th width="200px">File</th>
+                                                                            <th width="440px">Actions</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>First Entry Bill
+                                                                                <span class="ml-2" data-toggle="tooltip" data-placement="right"
+                                                                                    data-original-title="The initial customs document or bill generated for the shipment's entry, indicating details of the consignment and customs charges."><i
+                                                                                        class="fa fa-info-circle"></i></span>
+                                                                            </td>
+                                                                            <td><a href="../assets/global/img/bill.png" target="_blank">bill.png</a></td>
+                                                                            <td>
+                                                                                <a href="#" class="btn btn-icon-only"><i class="fa fa-trash"></i></a>
+                                                                                <a href="../assets/global/img/bill.png" class="btn btn-icon-only"
+                                                                                    target="_blank"><i class="fa fa-eye"></i></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Invoice (If Available)
+                                                                                <span class="ml-2" data-toggle="tooltip" data-placement="right"
+                                                                                    data-original-title="A commercial document listing the goods or services provided, along with prices, quantities, and transaction details, submitted with the customs request if applicable."><i
+                                                                                        class="fa fa-info-circle"></i></span>
+                                                                            </td>
+                                                                            <td></td>
+                                                                            <td>
+                                                                                <div class="d-flex">
+                                                                                    <div class="d-flex" style="flex: 1">
+                                                                                        <input type="file" class="form-control" />
+                                                                                    </div>
+                                                                                    <button class="btn btn-sm btn-light" type="button">Upload File</button>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Bill of Loading (If Available)
+                                                                                <span class="ml-2" data-toggle="tooltip" data-placement="right"
+                                                                                    data-original-title="A document issued by a carrier to acknowledge receipt of cargo for shipment, used to verify shipping details and ownership."><i
+                                                                                        class="fa fa-info-circle"></i></span>
+                                                                            </td>
+                                                                            <td></td>
+                                                                            <td>
+                                                                                <div class="d-flex">
+                                                                                    <div class="d-flex" style="flex: 1">
+                                                                                        <input type="file" class="form-control" />
+                                                                                    </div>
+                                                                                    <button class="btn btn-sm btn-light" type="button">Upload File</button>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>`;
+				if (counterup <= "4") {
+					targetDiv.append(copyform);
+					// Reinitialize Bootstrap Select
+					targetDiv.find(".selectpicker").selectpicker();
+					// Reinitialize Summernote
+					targetDiv.find(".summernote").summernote({
+						height: 200,
+						placeholder: "Enter your text here...",
+						toolbar: [
+							["style", ["style"]],
+							["font", ["bold", "italic", "underline", "clear"]],
+							["fontname", ["fontname"]],
+							["color", ["color"]],
+							["para", ["ul", "ol", "paragraph"]],
+							["height", ["height"]],
+							["table", ["table"]],
+						],
+					});
+					//// Declaration Check
+					DCStageCheck();
+				} else {
+					alert("You can add only 5 Items in one Request");
+				}
+			}
+		</script>
+	</body>
+</html>
